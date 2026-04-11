@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="projects-section">
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">My Work</h2>
+                <p class="section-subtitle">
+                    A showcase of backend systems and full-stack applications I have built
+                </p>
+            </div>
+
+            <div class="projects-container">
+
+                <!-- Crypto Trading Platform -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/project1.jpg" alt="Crypto Platform">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">JPA</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">REST API</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Crypto Trading Platform</h3>
+                        <p class="project-description">
+                            Built a backend system to manage wallet balances and transactions, handling 1000+ simulated operations with secure API design and optimized database performance.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                Live Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Expense Tracker -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/project2.jpg" alt="Expense Tracker">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">Thymeleaf</span>
+                            <span class="project-tag">H2</span>
+                            <span class="project-tag">Full Stack</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Expense Tracker</h3>
+                        <p class="project-description">
+                            Developed a full-stack application for tracking income and expenses with categorized data, analytics, and optimized query performance.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                Live Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Email Automation System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/project3.jpg" alt="Email Automation">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">Cron Jobs</span>
+                            <span class="project-tag">Excel Processing</span>
+                            <span class="project-tag">Backend</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Bulk Email Automation System</h3>
+                        <p class="project-description">
+                            Engineered a scalable email automation system that reduced manual effort by 70% and handled 1000+ recipients per upload with scheduled delivery.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                Case Study <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Website -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/project4.jpg" alt="Portfolio">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Thymeleaf</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Personal Portfolio Website</h3>
+                        <p class="project-description">
+                            Designed and developed a responsive portfolio website to showcase projects, skills, and experience with dynamic rendering using Thymeleaf.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                Live Site <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>
