@@ -1,12 +1,18 @@
 // Loading Animation
-window.addEventListener('load', () => {
+const hideLoader = () => {
+  const loader = document.querySelector('.loader-wrapper');
+  if (!loader) return;
+  loader.style.opacity = '0';
   setTimeout(() => {
-      document.querySelector('.loader-wrapper').style.opacity = '0';
-      setTimeout(() => {
-          document.querySelector('.loader-wrapper').style.display = 'none';
-      }, 500);
-  }, 2000);
+      loader.style.display = 'none';
+  }, 500);
+};
+
+window.addEventListener('load', () => {
+  setTimeout(hideLoader, 2000);
 });
+
+setTimeout(hideLoader, 5000);
 
 //document.addEventListener('mousedown', () => {
 //  cursor.style.transform = 'translate(-50%, -50%) scale(0.8)';
